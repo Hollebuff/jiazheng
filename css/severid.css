@@ -1,0 +1,176 @@
+.main{
+    height: 1500px;
+}
+.cl{
+    clear: both;
+}
+.tl{
+    text-align: left;
+}
+
+
+/* 面包屑 */
+.mic{
+    height: 50px;
+    width: 1270px;
+    text-align: left;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.mic span, h1{
+    display: block;
+    float: left;
+    margin-left: 5px;
+}
+h1{
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+    font-weight: normal;
+}
+
+/* 服务介绍 */
+.sever_box{
+    margin-top: 20px;
+    width: 800px;
+    height: 240px;
+
+}
+.sever_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sever_img img{
+    display: block
+    
+}
+.sever_info{
+    margin-top: 30px;
+    margin-left: 20%;
+
+}
+.sever_name{
+    text-align: left;
+    margin-left: 20px;
+}
+.sever_name p{
+    height: 75px;
+    line-height: 75px;
+}
+.yanzheng{
+    background: #a7c01a;
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 10px;
+
+
+}
+
+.contact{
+    margin-left: 180px;
+    height: 150px;
+    line-height: 150px;
+}
+.contact a {
+    padding: 10px 25px 10px 25px;
+    background: red; 
+    color: white;
+}
+.contact span{
+    margin-left: 10px;
+    font-size: 10px;
+}
+/* 表格 */
+.table_boxall{
+    width: 800px;
+}
+.tb_box{
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: #666666;
+    width: 850px;
+    height: 300px;
+}
+.tb_box th {
+    border-width: 1px;
+    padding: 8px;
+    font-size: 16px;
+
+    border-style: solid;
+    border-color: #666666;
+    background-color: #27c01a;
+}
+.tb_box td {
+    border-width: 1px;
+    padding: 8px;
+    font-size: 14px;
+
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+.line{
+    margin-top: 20px;
+    height: 1px;
+    border-bottom: #666666 1px solid;
+    box-shadow: 2px 2px 5px #333333;
+}
+.content{
+    height: 650px;
+    width: 1373px;
+}
+
+.content_left{
+    width: 900px;
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.submen span{
+    font-size: 18px;
+    font-weight: bold;
+}
+article{
+    padding: 20px 10px 10px 30px;
+}
+
+strong{
+    height: 50px;
+}
+.sucess_list{
+    margin-top: 20px;
+    margin-left: 30px;
+
+
+}
+.sucess_list p{
+    height:40px;
+
+}
+
+.content_right{
+    width: 350px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.content_right p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aother{
+    margin-top: 20px;
+    text-align: left;
+
+}
+.aother a{
+    display: block;
+    max-width: 300px;
+    height: 35px;
+}
+.sever_bz img{
+    display: inline-block;
+    margin-left: 100px;
+
+}

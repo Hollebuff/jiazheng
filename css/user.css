@@ -1,0 +1,224 @@
+/* 面包屑 */
+.mbxie{
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+.mbxie a{
+    font-size: 16px;
+}
+
+.main{
+    height: 1050px;
+}
+.content_left{
+    width: 120px;
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+.content_left dl{
+    margin: 10px 0 5px 10px;
+    text-align: left;
+
+}
+.content_left dl dt{
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+}
+.content_left dl dd{
+    margin-left: 20px;
+    height: 25px;
+}
+.content_right{
+    margin-top: 30px;
+    height: 955px;
+    margin-left: 30px;
+
+}
+.user_info{
+    padding: 30px;
+    height: 120px;
+    width: 1100px;
+
+}
+
+用户基本信息
+.user_infoimg a img{
+    display: inline-block;
+
+
+}
+.user_list{
+    margin-left: 50px;
+}
+.user_list a {
+    display: block;
+    height: 40px;
+}
+.before_login{
+    margin-left: 150px;
+    line-height: 40px;
+}
+.before_login p{
+    height: 70px;
+    width: 500px;
+    text-align: left;
+}
+.user_vip{
+    display: inline-block;
+    margin-left: 60px;
+
+
+}
+.user_vip a {
+    display:inline-block;
+    background: rgb(196, 10, 10);
+    height: 35px;
+    width: 80px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 订单中心 */
+.myoder{
+    text-align: left;
+    padding: 10px 10px 10px 40px; 
+}
+.myoder h3{
+    height: 40px;
+    
+}
+.myoder span{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.myoder a{
+    display: inline-block;
+    width: 80px;
+}
+.myoder a img{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+
+/* 订单列表 */
+.content_rigth_order{
+    width: 1150px;
+    height: 780px;
+}   
+.order_left_bt{
+    height: 780px;
+    width: 700px;
+}
+
+.my_order{
+    height: 350px;
+    margin-top: 10px;
+}
+.order_list{
+    text-align: left;
+}
+.order_list li{
+    padding: 15px 0 0 30px;
+    float: left;
+    width: 650px;
+}
+
+.order_img {
+    width: 160px;
+}
+.order_img a img{
+    display: inline-block;
+    width: 105px;
+    height: 85px;
+}
+
+.order_list li span{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.order_title p{
+    height: 45px;
+    line-height: 45px;
+}
+.order_list li span:last-of-type{
+    float: right;
+    height: 85px;
+    line-height: 85px;
+}
+.server{
+    position: relative;
+    height: 300px;
+    z-index: 1;
+    background: #acacac;
+}
+.server h3{
+    padding: 10px 0 0 40px;
+    text-align: left;
+    z-index: 99;
+}
+.server .to_server{
+    height: 100px;
+    width: 950px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -475px;
+    margin-top: -50px;
+}
+.to_server p span, .to_server p span a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.to_server p{
+    height: 50px;
+}
+
+.to_server p span a{
+    display: inline-block;
+    background: #af3030;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+
+}
+
+
+.relat_look{
+    padding-top: 30px;
+    height: 500px;
+    width: 450px;
+}
+.user_often{
+    margin-top: 30px;
+    width: 380px;
+    
+}
+.user_often a{
+    margin: 5px;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background: #af3030;
+    color: #ffffff;
+    line-height: 30px;
+}
+.lately_look{
+    margin-top: 30px;
+}
+.user_lately{
+    width: 320px;
+    margin-top: 20px;
+    text-align: left;
+}
+.user_lately p{
+    height: 50px;
+}

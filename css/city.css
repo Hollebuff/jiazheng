@@ -1,0 +1,171 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.cl{
+    clear: both;
+}
+
+.wh{
+    width: 1373px;
+}
+.ma_auto{
+    margin: 0 auto;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* 快速导航 */
+.addlist{
+    width: 987px;
+    height: 1300px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    margin-top: 50px;
+}
+.defult_add{
+    height: 60px;
+    margin-top: 50px;
+
+
+}
+.defult_add .add_box{
+    width: 987px;
+}
+
+.defult_add a{
+    line-height: 60px;
+    display: inline-block;
+    padding-left:15px;
+    height: 60px;
+    width: 140px;
+    background: rgb(211, 9, 9);
+    color:#e5e5e5;
+    font-weight: 200;
+    letter-spacing: 2px;
+
+
+}
+.look_city{
+    background: #f9f9f9;
+    height: 60px;
+    width: 958px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center
+
+}
+.look_city span{
+    display: inline-block; 
+    width: 100px; 
+    margin-left: 10px;
+}
+.select_form{
+    margin-right: 40px;
+
+}
+.select_form dl{
+    float: left;
+}
+.look_city dt, .look_city dd{
+    display: block;
+    float: left;
+}
+.look_city dt{
+    height: 35px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.look_city dd{
+    margin-left: 10px;
+}
+select{
+    width: 100px;
+    height: 30px;
+}
+.select_dl input {
+    height: 30px;
+    width: 60px;
+    margin-left: 20px;
+}
+.look_city .select_dl .btn{
+    background: red;
+    color: #FFF;
+    border:0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dl_right input{
+    height: 25px;
+    width: 180px;
+
+}
+.hot_city{
+    background: #ffffff;
+    height: 40px;
+    width: 958px;
+    padding-left:  5px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 30px;
+}
+.city_all{
+    height: 1100px;
+}
+
+.city_list{
+    margin-left: -56px;
+    background: #ffffff;
+    height: 40px;
+    width: 958px;
+    padding-left:  20px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 30px;
+    
+}
+.city_list :hover{
+    background: #e6e6e6;
+}
+.city_list p{
+    text-align: left;
+}
+.city_itmes{
+    width: 100px;
+}
+.city_name{
+    margin-left: 30px;
+}
+.city_name a{
+    display: inline-block;
+    width: 100px;
+}
+.city_nub{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #e6e6e6;
+    background: #f9f8f8;
+    color: #b9b9b9;
+    
+}
+
+.city_nub:hover{
+    background: #ff9c00;
+    color:#FFF;
+}
+
+/* ABCDEFGHIJKLMNOPQRSTUVWXYZ */

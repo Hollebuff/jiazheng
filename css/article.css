@@ -1,0 +1,236 @@
+/* 面包屑 */
+.mbxie{
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+.mbxie a{
+    font-size: 16px;
+}
+
+/* 属性 */
+.subMenu{
+    height: 280px;
+    margin-top: 40px;
+
+    
+}
+.subMenu ol{
+    width: 1180px;
+}
+.subMenu ol dl{
+    padding-right: 135px;
+    overflow: hidden;
+    height: 50px;
+    line-height: 59px;
+    border: 1px solid hsl(0, 0%, 90%);
+
+}
+.subMenu ol dl dt{
+    float: left;
+    width: 85px;
+    height: 50px;
+    background: #b1b1b1;
+    line-height: 50px;
+}
+.subMenu ol dl dd a{
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.Menu_list{
+    width: 45px;
+    line-height: 30px;
+    margin: 10px 0 0 10px;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+
+}
+
+.select_nav {
+    text-align: left;
+    background: #b1b1b1;
+    width: 1150px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+    padding-left: 30px;
+
+}
+/* 筛选项 */
+.select_nav select{
+    width: 80px;
+    margin-left: 20px;
+    border: 1px solid #e3e3e3;
+    height: 25px;
+}
+.select_nav a{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 25px
+
+}
+.select_nav a img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+}
+
+/* 主体内容 */
+.main{
+    height: 2000px;
+}
+
+/* 主体内容左边 */
+.content_left{
+    width: 760px;
+    height: 1980px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.content_left ul li{
+    padding: 10px;
+    margin-top: 20px;
+    width: 760px;
+    height: 150px;
+    position: relative;
+
+}
+.article_content{
+    margin-left: 20px;
+    width: 520px;
+    text-align: left;
+
+}
+.article_content h2{
+    text-align: left;
+}
+.article_content h2 a{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+}
+.article_content p{
+    display: inline-block;
+    margin-top: 20px;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #5e5e5e;
+}
+
+.article_info{
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 10px;
+}
+.article_info span{
+    margin-left: 5px;
+}
+.article_info span a{
+    background: #b1b1b1;
+}
+
+
+
+
+/* 主体右边 */
+.content_right{
+    width: 400px;
+    height: 2020px;
+}
+.hot_sever h2{
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px
+}
+.hot_sever a{
+    display: inline-block;
+    width: 100px;
+    margin-top: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    background: #b1b1b1;
+    border: 1px solid #9b9b9b;
+}
+
+/* 热门文章 */
+.tablist {
+    position:relative;
+    margin:50px auto;
+    min-height:200px;
+}
+
+.tabmenu {
+    position:absolute;
+    top:0;
+    left: 80px;
+    margin:0;
+}
+.tabmenu li{
+    display:inline-block;
+}
+.tabmenu li a {
+    padding:5px 10px;
+    margin:0 10px 0 0;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #5e5e5e;
+    color: #e3e3e3;
+    cursor: pointer;
+}
+ 
+.tab_content {
+    top: 50px;
+    position: absolute;
+    width:370px;
+    height:750px;
+    padding:15px;
+    font-size:1.2em;
+    line-height:1.5em;
+    color:#666;
+    background:#fff;
+}
+ 
+#tab1:target, #tab2:target{
+        z-index: 1;
+}
+.ul_article{
+    margin-top: 30px;
+    position: absolute;
+}
+
+.ul_article li{
+    margin-top: 5px;
+}
+.ul_article li span{
+    margin-left: 10px;
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+}
+.ul_article li a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 260px;
+    text-align: left;  
+}
+.ul_article li span img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#article1:target, #article2:target{
+    z-index: 1;
+} 

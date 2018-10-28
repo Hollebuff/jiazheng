@@ -1,0 +1,186 @@
+/* 面包屑 */
+.mbxie{
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+.mbxie a{
+    font-size: 16px;
+}
+
+/* 属性 */
+.subMenu{
+    height: 280px;
+    margin-top: 40px;
+
+    
+}
+.subMenu ol{
+    width: 1180px;
+}
+.subMenu ol dl{
+    padding-right: 135px;
+    overflow: hidden;
+    height: 50px;
+    line-height: 59px;
+    border: 1px solid hsl(0, 0%, 90%);
+
+}
+.subMenu ol dl dt{
+    float: left;
+    width: 85px;
+    height: 50px;
+    background: #b1b1b1;
+    line-height: 50px;
+}
+.subMenu ol dl dd a{
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.Menu_list{
+    width: 45px;
+    line-height: 30px;
+    margin: 10px 0 0 10px;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+
+}
+
+.select_nav {
+    text-align: left;
+    background: #b1b1b1;
+    width: 1150px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+    padding-left: 30px;
+
+}
+/* 完整筛选内容 */
+.next_select{
+    height: 45px;
+}
+.next_select_content{
+    text-align: left;
+    margin-left: 50px;
+    line-height: 45px;
+}
+.next_select_content span:last-of-type{
+    margin-left: 30px;
+}
+
+
+/* 筛选项 */
+.select_nav select{
+    width: 80px;
+    margin-left: 20px;
+    border: 1px solid #e3e3e3;
+    height: 25px;
+}
+.select_nav a{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 25px
+
+}
+.select_nav a img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+}
+
+/* 主体内容 */
+.main{
+    height: 1900px;
+}
+
+.content_left{
+    margin-top: 10px;
+    width: 860px;
+}
+.main_content{
+    width: 800px;
+    height: 1800px;
+    padding: 20px 15px 20px 55px;
+}
+.main_content li{
+    width: 800px;
+    height: 140px;
+    margin: 40px 0;
+}
+.main_content li div{
+    float: left;
+    height: 150px;
+    text-align: left;
+}
+
+.conten_info{
+    padding-left:20px;   
+}
+
+.conten_info p{
+    width: 280px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+    
+}
+.last_content{
+    line-height: 150px;
+    float: right;
+    width: 150px;
+    margin-left: 120px;
+    align-content: center;
+
+}
+
+.last_content span{
+    display: inline-block;
+    width: 70px;
+}
+.content_shop{
+    width: 85px;
+    height: 50px;
+    line-height: 50px;
+    background: red;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.content_shop a{
+    color: #e3e3e3;
+}
+
+/* 右侧 */
+.content_right{
+    margin-top: 50px;
+}
+
+.aother_look, .late_look{
+    width: 300px;
+    height: 260px;
+    margin-top: 20px;
+}
+h2{
+    height: 35px;
+}
+
+.aother_look ul li, .late_look ul li{
+    height: 35px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
