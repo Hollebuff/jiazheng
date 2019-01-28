@@ -261,25 +261,27 @@
     <div class="order wh mgc">
         <!-- 订单头部信息 -->
         <div class="order-title">
-            <span class="title-5">商品名称</span>
+            <span class="title-1"><em class="checkall"><input type="checkbox" name="" id="checkall"></em>全选</span>
+            <span class="title-4">商品名称</span>
             <span class="title-1">商品单价</span>
             <span class="title-1">数量</span>
             <span class="title-1">服务商</span>
             <span class="title-2">删除</span>
-
         </div>
-
+        
         <ul class="order-list">
             <li class="order-list-item">
                 <div class="order-list-item-5">
+                    <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
                     </div>
-                <div class="order-list-item-1"><span>100</span></div>
+                <div class="order-list-item-1"><span class="price">100</span></div>
                 <div class="addlist order-list-item-1">
-                    <a href="">-</a> 
-                    <input type="text" value="1"> 
-                    <a href="">+</a></div>
+                    <span class="minus">-</span> 
+                    <input type="text" value="1" class="buyNub">
+                    <span class="add">+</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
                     <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
@@ -287,14 +289,16 @@
             </li>
             <li class="order-list-item">
                 <div class="order-list-item-5">
+                    <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
                     </div>
-                <div class="order-list-item-1"><span>100</span></div>
+                <div class="order-list-item-1"><span class="price">200</span></div>
                 <div class="addlist order-list-item-1">
-                    <a href="">-</a> 
-                    <input type="text" value="1"> 
-                    <a href="">+</a></div>
+                    <span class="minus">-</span> 
+                    <input type="text" value="1" class="buyNub">
+                    <span class="add">+</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
                     <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
@@ -302,14 +306,16 @@
             </li>
             <li class="order-list-item">
                 <div class="order-list-item-5">
+                    <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
                     </div>
-                <div class="order-list-item-1"><span>100</span></div>
+                <div class="order-list-item-1"><span class="price">300</span></div>
                 <div class="addlist order-list-item-1">
-                    <a href="">-</a> 
-                    <input type="text" value="1"> 
-                    <a href="">+</a></div>
+                    <span class="minus">-</span> 
+                    <input type="text" value="1" class="buyNub">
+                    <span class="add">+</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
                     <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
@@ -321,7 +327,7 @@
         <div class="order-count wh mgc">
             <div class="order-count-box fr" id="oder-count-box">
                 <span class="count-total">合计:</span>
-                <span class="count-number">3个</span>
+                <span class="count-number">1个</span>
                 <span class="count-price">230元</span>
             </div>        
         </div>
@@ -337,33 +343,33 @@
             <li>
                 <div class="order-user-add">
                     <span>联系地址：</span>
-                    <input type="text" value="xxx省/市/自治区">
-                    <input type="text" value="xxx市">
-                    <input type="text" value="xxx区">
-                    <input type="text" value="街道地址" class="street">
+                    <input type="text" value="" placeholder="xxx省/市/自治区">
+                    <input type="text" value="" placeholder="xxx市">
+                    <input type="text" value="" placeholder="xxx区">
+                    <input type="text" value="" class="street" placeholder="街道地址">
                 </div>
             </li>
             <li>
                 <div class="order-user-add">
                     <span>预约时间：</span>
-                    <input type="text" value="2019年1月4日">
+                    <input type="text" value="" placeholder="2019年1月4日">
                 </div>
             </li>
             <li>
                 <div class="order-user-add">
                     <span>联系电话：</span>
-                    <input type="text" value="180 1234 1234">
+                    <input type="text" value="" placeholder="180 1234 1234">
                 </div>
             </li>            
             <li>
                 <div class="order-user-add">
                     <span>称呼：</span>
-                    <input type="text" value="周小姐">
+                    <input type="text" value="" placeholder="周小姐">
                 </div>
             </li>  
         </ul>
         <div class="order-user-btn">
-            <input type="button" value="确定">
+            <input type="button" value="确定" onclick="submitInfo()">
         </div>
     </div>
 
