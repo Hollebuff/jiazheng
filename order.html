@@ -262,11 +262,12 @@
         <!-- 订单头部信息 -->
         <div class="order-title">
             <span class="title-1"><em class="checkall"><input type="checkbox" name="" id="checkall"></em>全选</span>
-            <span class="title-4">商品名称</span>
+            <span class="title-3">商品名称</span>
             <span class="title-1">商品单价</span>
             <span class="title-1">数量</span>
+            <span class="title-1">小计(元)</span>
             <span class="title-1">服务商</span>
-            <span class="title-2">删除</span>
+            <span class="title-1">删除</span>
         </div>
         
         <ul class="order-list">
@@ -275,33 +276,40 @@
                     <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
-                    </div>
+                </div>
                 <div class="order-list-item-1"><span class="price">100</span></div>
                 <div class="addlist order-list-item-1">
                     <span class="minus">-</span> 
                     <input type="text" value="1" class="buyNub">
                     <span class="add">+</span>
                 </div>
+                <div class="order-list-item-1">
+                    <span class="subtotal">0.00</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
-                    <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
+                    <input type="button" name="" value="删除" class="delect-btn">
                 </div>
             </li>
+
             <li class="order-list-item">
                 <div class="order-list-item-5">
                     <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
-                    </div>
+                </div>
                 <div class="order-list-item-1"><span class="price">200</span></div>
                 <div class="addlist order-list-item-1">
                     <span class="minus">-</span> 
                     <input type="text" value="1" class="buyNub">
                     <span class="add">+</span>
                 </div>
+                <div class="order-list-item-1">
+                    <span class="subtotal">0.00</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
-                    <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
+                    <input type="button" name="" value="删除" class="delect-btn">
                 </div>
             </li>
             <li class="order-list-item">
@@ -309,26 +317,50 @@
                     <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
                     <img src="E://web/images/order-listimg.jpg" alt="">
                     <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
-                    </div>
-                <div class="order-list-item-1"><span class="price">300</span></div>
+                </div>
+                <div class="order-list-item-1"><span class="price">350</span></div>
                 <div class="addlist order-list-item-1">
                     <span class="minus">-</span> 
                     <input type="text" value="1" class="buyNub">
                     <span class="add">+</span>
                 </div>
+                <div class="order-list-item-1">
+                    <span class="subtotal">0.00</span>
+                </div>
                 <div class="order-list-item-1"><span>李师傅</span></div>
                 <div class="order-list-item-2">
-                    <input type="button" name="" value="删除" id="delect-btn" class="delect-btn">
+                    <input type="button" name="" value="删除" class="delect-btn">
                 </div>
             </li>
+            <li class="order-list-item">
+                <div class="order-list-item-5">
+                    <div class="check-box"><input type="checkbox" class="chebox" name="" id=""></div>
+                    <img src="E://web/images/order-listimg.jpg" alt="">
+                    <span>家用空调安装，5年专业安装经验服务3服务装经验服务3服务装经验服务3服务</span>
+                </div>
+                <div class="order-list-item-1"><span class="price">500</span></div>
+                <div class="addlist order-list-item-1">
+                    <span class="minus">-</span> 
+                    <input type="text" value="1" class="buyNub">
+                    <span class="add">+</span>
+                </div>
+                <div class="order-list-item-1">
+                    <span class="subtotal">0.00</span>
+                </div>
+                <div class="order-list-item-1"><span>李师傅</span></div>
+                <div class="order-list-item-2">
+                    <input type="button" name="" value="删除" class="delect-btn">
+                </div>
+            </li>
+         
         </ul>
 
         <!-- 订单统计 -->
         <div class="order-count wh mgc">
             <div class="order-count-box fr" id="oder-count-box">
                 <span class="count-total">合计:</span>
-                <span class="count-number">1个</span>
-                <span class="count-price">230元</span>
+                <span class="count-number">0个</span>
+                <span class="count-price">0元</span>
             </div>        
         </div>
     </div>
@@ -343,28 +375,29 @@
             <li>
                 <div class="order-user-add">
                     <span>联系地址：</span>
-                    <input type="text" value="" placeholder="xxx省/市/自治区">
-                    <input type="text" value="" placeholder="xxx市">
-                    <input type="text" value="" placeholder="xxx区">
-                    <input type="text" value="" class="street" placeholder="街道地址">
+                    <input type="text" value="" placeholder="xxx省/市/自治区" class="info-adds">
+                    <input type="text" value="" placeholder="xxx市" class="info-adds">
+                    <input type="text" value="" placeholder="xxx区" class="info-adds">
+                    <input type="text" value="" class="street" placeholder="街道地址" class="info-adds">
                 </div>
             </li>
+
             <li>
                 <div class="order-user-add">
                     <span>预约时间：</span>
-                    <input type="text" value="" placeholder="2019年1月4日">
+                    <input type="text" value="" placeholder="2019年1月4日" class="info-times">
                 </div>
             </li>
             <li>
                 <div class="order-user-add">
                     <span>联系电话：</span>
-                    <input type="text" value="" placeholder="180 1234 1234">
+                    <input type="text" value="" placeholder="180 1234 1234" class="info-tel">
                 </div>
             </li>            
             <li>
                 <div class="order-user-add">
                     <span>称呼：</span>
-                    <input type="text" value="" placeholder="周小姐">
+                    <input type="text" value="" placeholder="周小姐" class="info-name">
                 </div>
             </li>  
         </ul>
@@ -376,12 +409,15 @@
     <!-- 确认订单和提交 -->
     <div class="order-submit wh mgc">
         <div class="order-info fr">
-            <p>家用空调安装，5年专业安装经验，3年质保服务</p>
-            <p>广东省 深圳市 福田区 深南中路3003号北方大厦7楼702-703室</p>
-            <p>日期：2018年12月1日</p>
-            <p><span>电话：180 1234 1234</span><span>周小姐</span></p>
+            <!-- <p>家用空调安装，5年专业安装经验，3年质保服务</p> -->
+            <p class="sub-adds"></p>
+            <p class="sub-date"></p>
+            <p>
+                <span class="sub-tel"></span>
+                <span class="sub-name"></span></p>
+
             <p class="order-info-price">
-                <span>230元</span>
+                <span class="sub-price"></span>
                 <input type="button" name="" id="" value="提交订单">
             </p>
         </div>
