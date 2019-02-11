@@ -568,7 +568,7 @@ footer{
     width: 140px;
     height: 140px;
 }
-/* 版权信息 */
+/* 版权信息 */ 
 .copy{
     height: 100px;
 }
@@ -1972,11 +1972,7 @@ strong{
     margin-top: 40px;
 }
 
-
-
-
 /* 订单页面------------- */
-
 
 /* 订单列表 */
 .order-h2{
@@ -1986,7 +1982,7 @@ strong{
     text-align: left;
     font-size: 18px;
     font-weight: bold;
-    margin: 60px auto 10px auto;
+    margin: 30px auto 10px auto;
     padding-left: 50px;
 }
 .order{
@@ -3146,10 +3142,8 @@ strong{
 }
 
 .company-left ul li:hover{
-    box-shadow: 0px 2px 16px #333333; 
+    box-shadow: 0px 1px 10px #d8d8d8; 
 }
-
-
 
 .company-logopic{
     height: 116px;
@@ -3330,7 +3324,7 @@ strong{
 .yuyue, .tel{
     display: inline-block;
     height: 40px;
-    width: 100px;
+    width: 130px;
     line-height: 40px;
     text-align: center;
     cursor: pointer;
@@ -3345,7 +3339,7 @@ strong{
 .companyid-looktel span{
     display: block;
     position: relative;
-    left: 108px;
+    left: 138px;
     bottom: 18px;
     font-size: 12px;
     color: #8F9E9E;
@@ -3656,6 +3650,7 @@ dt, dd{
 }
 .about-company-data{
     text-align: left;
+    margin-bottom: 60px;
 }
 .about-company-data strong{
     display: inline-block;

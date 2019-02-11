@@ -1,4 +1,4 @@
-// 装修公司详情页轮播图 【为什么要多点一下？？】
+// 装修公司详情页轮播图
 function rotation(){
     var go = document.getElementsByClassName('go')[0],
         back = document.getElementsByClassName('back')[0],
@@ -10,23 +10,21 @@ function rotation(){
     // 下一张
     go.onclick = function(){
         var imgUrl;
-        if(i < 4 ){
+        if(i < 3 ){
             showPicImg = document.getElementsByClassName('showpic')[0].getElementsByTagName('img')[0];     // 获取大图图片img
             i += 1;
             imgUrl = companyidBannarList[i].getElementsByTagName('img')[0].cloneNode();
             showPicImg.remove();
             showPic.appendChild(imgUrl);
-            console.log(imgUrl, showPicImg, showPic, i, companyidBannarList);
             nextPrice();
         }
         else{
             i = 0;
+            showPicImg = document.getElementsByClassName('showpic')[0].getElementsByTagName('img')[0];     // 获取大图图片img
             imgUrl = companyidBannarList[i].getElementsByTagName('img')[0].cloneNode();
             showPicImg.remove();
             showPic.appendChild(imgUrl);
-            console.log(imgUrl, showPicImg, showPic, i, companyidBannarList);
             nextPrice();
-
         }
     }
 
@@ -39,11 +37,15 @@ function rotation(){
             imgUrl = companyidBannarList[i].getElementsByTagName('img')[0].cloneNode();
             showPicImg.remove();
             showPic.appendChild(imgUrl);
-            console.log(imgUrl, showPicImg, showPic, i, companyidBannarList);
             nextPrice();
         }
         else{
-            i = 4;
+            i = 3;
+            showPicImg = document.getElementsByClassName('showpic')[0].getElementsByTagName('img')[0];     // 获取大图图片img
+            imgUrl = companyidBannarList[i].getElementsByTagName('img')[0].cloneNode();
+            showPicImg.remove();
+            showPic.appendChild(imgUrl);
+            nextPrice();
         }
     }
     
@@ -57,18 +59,12 @@ function rotation(){
         }
         companyidBannarList[i].className = 'imgon';
     }
-
-
 }
 rotation();
-
-// 网站效果基本成型
-
 
 // 右侧悬浮导航返回顶部自动显示隐藏
 window.onscroll = function(){
     var top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-    // var gotop = document.getElementById('top');
     var gotop = document.getElementsByClassName('top');     //有序集合
     if (top > 500){
         gotop[0].style.display = "block";
@@ -76,4 +72,12 @@ window.onscroll = function(){
     else{
         gotop[0].style.display = "none";
     }
+}
+
+// 装修公司页面显示电话
+function showTel(){
+    var showTelNub = document.getElementsByClassName('companyid-looktel')[0].getElementsByTagName('a')[0];
+    var telNub = showTelNub.getAttribute('tel');
+    showTelNub.innerHTML = telNub;
+    showTelNub.background = '';
 }
