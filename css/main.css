@@ -1329,8 +1329,7 @@ footer{
     padding: 5px 5px;
 }
 .sever-main_content li:hover{
-    border: 1px solid #e9e9e9;
-    box-shadow: 0 0 2px 2px #f8f8f8;
+    box-shadow: 0 0 2px 2px #e0e0e0;
 }
 
 .sever-main_content li div{

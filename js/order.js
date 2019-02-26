@@ -1,4 +1,3 @@
-// 参考网上方法：http://www.php.cn/js-tutorial-408942.html
 // 如果是删除最上门一条数据，最后一条数据无法删除，此bug占时不知道怎么解决
 
 function addBuy(){
