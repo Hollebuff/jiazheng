@@ -101,6 +101,40 @@
     display:block;
     clear:both;
 }
+body{
+    max-width:640px;
+    min-width:320px;
+    /* 流畅滚动 */
+    -webkit-overflow-scrolling:touch;
+}
+
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+a, img {
+    -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
+}
+.bottom-line::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 200%;
+    background-color: #E4E6EB;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+}
+
 html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
 abbr, acronym, address, big, cite, code, del, 
@@ -371,8 +405,10 @@ main{
 .suspend-footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     height: 56px;
     width: 100%;
+    max-width: 640px;
     border-top: 1px solid #e7e7e7;
     background: #fff;
 }
@@ -419,5 +455,161 @@ main{
 .home-title{
     height: 18px;
     line-height: 18px;
+}
+
+
+/* 城市站 */
+.carousel-contaier{
+    width: 100%;
+    height: 2.7rem;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-contaier{
+    position: relative;
+    width: 46.4316rem;
+    height: 2.7rem;
+    z-index: 1;
+
+
+}
+.swiper-contaier li{
+    float: left;
+}
+.caiousel-list a img{
+    height: 2.7rem;
+    width: 7.7386rem;
+}
+.caorusel-btn{
+    position: absolute;
+    bottom: 0.05rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+.caorusel-btn .caorusel-btn-on{
+    background: orangered;
+}
+.caorusel-btn span{
+    display: block;
+    float: left;
+    width: 0.3rem;
+    height: 0.1rem;
+    margin-right: 0.2rem;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    background: #fff;
+}
+
+/* 服务保证 */
+.service-promise-container{
+    margin-top: 0.2rem;
+    background: #fff;
+    height: 2.2rem;
+}
+.promise-container{
+    padding: 0.2rem 0;
+}
+.promise-container li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.promise-container li img{
+    width: 1.123rem;
+    height: 0.843rem;
+}
+
+/* 师傅榜 */
+.master-top{
+    margin-top: 10px;
+    background: white;
+
+}
+.master-top-more{
+    display: flex;
+    justify-content: space-between;
+    height: .5797rem;
+    position: relative;
+    padding: 10px 14px 0;
+}
+
+.master-top-more h2{
+    font-weight: bold;
+    font-size: .2898rem;
+}
+.master-top-more span{
+    font-size: .2536rem;
+}
+
+.master-container{
+    padding: 0 .1rem;
+
+}
+.master-items > div {
+    float: left;
+}
+.master-header{
+    width: 30%;
+    text-align: center;
+}
+.master-name{
+    width: 45%;
+}
+
+.master-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    position: relative;
+    font-size: 0.25rem;
+
+}
+.master-header img{
+    width: 1.3rem;
+    height: 1.5rem;
+}
+
+.master-name p{
+    height: .8rem;
+    line-height: .8rem;
+    font-size: 0.2989rem;
+}
+.master-service{
+    width: 25%;
+    padding-right: .2rem;
+    text-align: right;
+}
+.master-service p{
+    height: .6rem;
+    line-height: .6rem;
+
+}
+.master-service-call a{
+    display: inline-block;
+    width: 1.5rem;
+    background: orange;
+    color:white;
+    text-align: center;
+}
+
+/* 服务流程 */
+.flow{
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 2.3rem;
+    background: white;
+}
+.flow-container li{
+    float: left;
+    width: 25%;
+    height: 1.2rem;
+    text-align: center;
+}
+.flow-container li img{
+    width: 1.2rem;
+    height: 1.2rem;
+
 }
 
