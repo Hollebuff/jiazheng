@@ -1,0 +1,44 @@
+/* 城市列表 */
+.location-city{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .2898rem;
+
+}
+.location-city a{
+    width: .6rem;
+    color:red;
+}
+.city{
+    padding: 10px 0;
+    background: white;
+}
+.city-items{
+    line-height: .8rem;
+    margin-top: .1rem;
+}
+
+.city-zm{
+    width: .5rem;
+    padding-left:.1rem; 
+    font-size: .2898rem;
+    font-weight: bold;
+    text-align: center;
+    border: 1px dashed #EAEAEA;
+    background: #f1f1f1;
+
+}
+
+.city-items a, .city-items span{
+    text-align: center;
+    width: 1.2rem;
+    display: block;
+    float: left;
+    font-size: 0.2457rem;
+    margin: -1px 0 0 -1px;
+    border: 1px dashed #EAEAEA;
+}
+.city-items a{
+    background: #fff;
+}

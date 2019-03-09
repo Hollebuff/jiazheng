@@ -1,0 +1,179 @@
+
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    background: #F7F7F7;   
+}
+
+/* 导航列表 */
+.nav{
+    margin: 10% 0;
+    background: #fff;
+}
+
+
+.service-box{
+    padding: 10px 15px 0;
+    height: 210px;
+    background: #fff;
+
+}
+.nav-list{
+    float: left;
+    width: 20%; 
+    padding-top: 18px;
+    text-align: center;
+}
+.items-href{
+    width: 76px;
+    height: auto;
+}
+.list-items-img img{
+    width: 50px;
+    height: 50px;
+}
+.list-type{
+    font-size: .2898rem;
+}
+
+/* 热门推荐 */
+.hot-service{
+    margin-top: 6px;
+    height: 1.14rem;
+    background: #fff;
+}
+
+.hot-box{
+    padding: 0 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 25px;
+}
+.hot-box li{
+    float: left;
+    padding: 0 2px;
+    margin: 0 4px;
+    font-size: .26rem;
+}
+.hot-box li a{
+    display: inline-block;
+    padding: 0 4px
+}
+
+/* 服务列表 */
+main{
+    margin-top: 10px;
+}
+
+.main-service-list{
+    margin-top: 8px;
+    padding: 14px 0;
+    background: #fff;
+
+}
+.service-type{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.service-type-title a{
+    font-size: .3rem;
+    color: #ca2c27
+}
+
+.service-more{
+    font-size: .25rem;
+}
+
+.service-list-items{
+    margin-top: 12px;
+    height: 40px;
+    border-top: 1px solid #dddddd;
+}
+
+.service-sublist{
+    padding: 0 10px;
+    font-size: .25rem;
+}
+
+.service-sublist li{
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+/* 文章推荐 */
+.recommend-article{
+    margin-top: 10px;
+    height: 290px;
+    background: #fff;
+}
+.recommend-tab{
+    padding-top: 6px;
+    line-height: 26px;
+    text-align: center;
+}
+.hot-tab, .new-tab{
+    display: inline-block;
+    width: 30%;
+    font-size: .3rem;
+}
+
+.recommend-content{
+    position: relative;
+    top: 6px;
+    height: 240px;
+    background: #fff;
+}
+.recommend-hot-article, .recommend-new-article{
+    position: absolute;
+    height: 210px;
+    top: 10px;
+    left: 0;
+}
+
+.recommend-list{
+    padding-left: 15px;
+    height: 40px;
+    line-height: 20px;
+}
+.recommend-list a{
+    font-size: .25rem;
+}
+.recommend-new-article{
+    display: none;
+}
+
+/* 工具栏 */
+.tools{
+    margin-top: 10px;
+    height: 160px;
+    background: #fff;
+}
+.tools-caontainer {
+    padding: 10px 15px;
+}
+.tools-caontainer li{
+    float: left;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

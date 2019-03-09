@@ -1,0 +1,98 @@
+/* 菜单 */
+.service-menu{
+    position: relative;
+    margin-top: 1px;
+
+}
+/* 横向菜单 */
+.menu-container{
+    display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+}
+
+/*去掉滚动条*/
+.menu-container::-webkit-scrollbar{
+    width:0; 
+    height:0; 
+    display: none;
+}
+
+.menu-container li{
+    line-height: .6rem;
+    margin-right: .2rem;
+    margin-left: .1rem;
+}
+
+.menu-container li a{
+    font-size: .3989rem;
+}
+
+/* 子菜单 */
+.submenu-container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.submenu-container li a{
+    font-size: .2736rem;
+}
+.submenu-container li{
+    float: left;
+    line-height: .4rem;
+    margin-right: .2rem;
+    padding-left: .1rem;
+}
+.service-sort{
+    margin-top: 10px;
+    height: .8rem;
+    line-height: .4rem;
+}
+
+.sort-container a{
+    display: inline-block;
+    width: 30%;
+    height: .8rem;
+    line-height: .8rem;
+    border: 1px dashed #e6e6e6;
+    font-size: .2536rem;
+    text-align: center;
+}
+.service-main{
+    margin-top: .5rem;
+}
+.main-items{
+    display: flex;
+    justify-content: center;
+}
+
+.items-img img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.items-title p{
+    font-size: .2898rem;
+}
+
+.items-price p{
+    font-size: .2536rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
