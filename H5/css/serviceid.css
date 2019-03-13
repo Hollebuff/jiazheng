@@ -1,0 +1,211 @@
+/* 服务信息 */
+.service-img{
+    width: 7.5rem;
+    height: 3.144rem;
+}
+.service-img img{
+    width: 100%;
+    height: 100%;
+}
+.service-info{
+    margin-top: 10px; 
+
+}
+.buy-price{
+    padding: 5px 10px; 
+
+    font-size: .362rem;
+    color: #ca141d;
+    background: white;
+
+}
+.service-title{
+    padding: 5px 10px; 
+    background: white;
+
+}
+.service-title h1{
+    font-size: .2898rem;
+}
+.service-title p{
+    font-size: .2536rem;
+    color: #888;
+    text-decoration:underline;
+}
+.service-atcive{
+    margin-top: .2rem;
+    padding-top: .2rem;
+
+}
+.service-atcive, .service-add, .service-other{
+    padding: 5px 10px; 
+    font-size: .2536rem;
+    background: white;
+}
+.service-add{
+    margin-top: 10px;
+}
+.service-atcive p, .service-add, .service-other{
+    height: .636rem;
+}
+
+.atcive{
+    display: inline-block;
+    width: 2.4rem;
+}
+.atcive-redpack{
+    display: inline-block;
+    padding: .01rem .06rem;
+    background-color: #ef5a62;
+    color: #fff;
+}
+.buy-list{
+    display: inline-block;
+    margin-right: 10px;
+    padding: .05rem .3rem;
+    width: 1rem;
+    height: .4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    border: 1px solid rgba(178,178,178,0.5);
+    border-radius: .5rem;
+}
+.service-buy{
+    display: flex;
+    flex-flow: row;
+    margin-top: 10px;
+    padding: 10px 0;
+    justify-content: center;
+    background: white;
+
+}
+.buy-minus-add{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-right: 16px;
+
+}
+
+.minus, .add{
+    width: .3rem;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    border-radius: .3rem;
+    font-size: .45rem;
+    border: 1px solid #d4d4d4;
+
+}
+.buy-nub{
+    margin: 0 10px;
+    height: .4rem;
+    width: .8rem;
+    max-width: 1.6rem;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.click-buy a{
+    display: inline-block;
+    padding: .03rem .05rem;
+    margin-right: 6px;
+    font-size: .3rem;
+    background: #ca141d;
+    color: white;
+}
+.click-buy span{
+    font-size: .2rem;
+
+}
+/* 服务说明 */
+.sub-title{
+    margin-top: 10px;
+    background: white;
+    border-bottom: 1px solid #696969;
+}
+
+.sub-title h3{
+    padding: 10px 10px 5px;
+    font-size: .36rem;
+}
+
+.table-price{
+    display: flex;
+    flex-flow: row;
+    padding: 10px 10px 0 10px;
+    
+    background: white;
+}
+.table-price table{
+    position: relative;
+    font-size: 14px;
+    border: 0;
+    width: 100%;
+    border-collapse:collapse;
+}
+.tbody-container tr{
+    text-align: center;
+    
+
+}
+.tbody-container tr th{
+    font-size: .2365rem;
+    color: #292D33;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #edeef2;
+    border: 0;
+    white-space: nowrap;
+}
+.tbody-container tr td{
+    position: relative;
+    color: #292D33;
+    padding: 10px;
+    border: 0;
+    font-size: .2365rem;
+}
+
+.tbody-container tr td::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    content: "";
+    border-left: 0;
+    border-top: 0;
+    border: 1px solid #D8DDE6;
+    border-radius: 0;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+}
+/* 服务详情 */
+.details-article{
+    margin-top: 20px;
+    padding: 0 18px;
+}
+.details-article article{
+    font-size: .2536rem;
+    text-indent: 2em;
+}
+.details-standard{
+    margin-top: 18px;
+    font-size: .2536rem;
+}
+.sub-details{
+    font-size: .2898rem;
+    font-weight: 600;
+}
+.service-comleta{
+    padding-left: 30px;
+}
+.service-comleta li{
+    height: .6rem;
+    line-height: .6rem;
+    list-style-type: decimal;
+}
