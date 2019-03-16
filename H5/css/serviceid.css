@@ -117,19 +117,55 @@
 }
 .click-buy span{
     font-size: .2rem;
-
 }
-/* 服务说明 */
-.sub-title{
-    margin-top: 10px;
+
+/* 服务商介绍 */
+.service-master{
     background: white;
-    border-bottom: 1px solid #696969;
+    font-size: .2546rem;
+}
+.servie-master-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.master-header{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid white;
+    border-radius: 3.2rem;
+    overflow: hidden;
+}
+.master-header img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.master-info > div{
+    height: .4rem;
+    margin-bottom: 10px;
+
+}
+.master-name {
+    font-size: .2898rem;
+    font-weight: 700;
+}
+.master-validate{
+    margin-left: 4px;
+    font-size: .2rem;
+    background: orange;
+    vertical-align: bottom;
 }
 
-.sub-title h3{
-    padding: 10px 10px 5px;
-    font-size: .36rem;
-}
+.master-sell a{
+    padding: 2px 8px;
+    border: 1px solid #D8DDE6;
+}   
+
+/* 服务说明 */
 
 .table-price{
     display: flex;
@@ -208,4 +244,155 @@
     height: .6rem;
     line-height: .6rem;
     list-style-type: decimal;
+}
+
+/* 售后服务 */
+.sell-items{
+    padding: 10 10px 0;
+    background: white;
+    text-align: left;
+}
+.sell-items img{
+    width: 30%;
+    height: 1.6rem;
+}
+.assess-lv{
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: .2546rem;
+    background: white;
+}
+.assess-lv span{
+    padding-right: .2rem;
+    font-size: .2546rem;
+}
+
+/* 评价列表 */
+.assess-lists {
+    display: flex;
+    align-items: center;
+    padding: 10px 6px 10px;
+    /* margin-top: 4px; */
+    height: 1.4rem;
+    font-size: .2536rem;
+    border-bottom: 1px dashed #d4d4d4; 
+    background: white;
+
+}
+.assess-lists > div{
+    float: left;
+}
+/* .ssess-details-img{
+    width: 25%;
+} */
+.assess-content-container{
+    width: 65%;
+}
+.assess-content-container{
+    margin-left: 4px;
+}
+
+.assess-content span{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+}
+.assess-user-info{
+    margin-left: .5rem;
+    width: 35%;
+    font-size: .2rem;
+}
+
+.assess-details-img img{
+    width: 1.8rem;
+    height: 1.2rem;
+}
+.assess-star{
+    margin-top: 6px;
+    width: 100px;
+    height: .4rem;
+    background-size: .1rem; 
+    background: url(../images/star.png) repeat-x center;
+}
+.user-info-header img{
+    height: .5rem;
+    width: .5rem;
+    vertical-align: middle;
+
+}
+
+.assess-date{
+    margin-top: 16px;
+}
+
+
+/* 翻页 */
+.page{
+    margin-top: 10px;
+}
+.page-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: white;
+}
+.page-container a{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #e4e4e4;
+    font-size: .23675;
+}
+.page-container a::after{
+    content: "";
+    display: block;
+    height: 1px;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+}
+/* 商家其他在售 */
+.other-sell{
+    margin-top: 10px;
+}
+.other-sell-container{
+    padding: 16px 10px;
+    background: white;
+
+}
+.other-sell-list{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+}
+.other-sell-img img{
+    height: 1.8rem;
+    width: 2.6rem;
+}
+.other-sell-info{
+    margin-left: 16px;
+    font-size: .2898rem;
+}
+.other-sell-info p{
+    padding: 10px 0;
+}
+.other-sell-title{
+    font-size: .3rem;
+    font-weight: 700;
+}
+.other-sell-price{
+    padding-left: .4rem;
+    color: #ca141d;
+    font-weight: 500;
+    font-size: .38rem;
 }

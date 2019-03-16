@@ -182,6 +182,25 @@ ol,dl,ul,li{
     list-style-type: none;
 }
 
+.red{
+    color: #ca2c27;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.sub-title{
+    margin-top: 10px;
+    background: white;
+    border-bottom: 1px solid #7979;
+}
+
+.sub-title h3{
+    padding: 10px 10px 5px;
+    font-size: .36rem;
+}
+
+
 
 /* 页面头部logo */
 header{
