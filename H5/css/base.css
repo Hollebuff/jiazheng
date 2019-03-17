@@ -133,6 +133,15 @@ a, img {
     -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
 }
 
+/* 字体超出宽度处理 */
+.more-row{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
 /* 线条处理 已经实现解决1px边框问题 */
 .bottom-line::after{
     position: absolute;
@@ -200,6 +209,35 @@ ol,dl,ul,li{
     font-size: .36rem;
 }
 
+/* 翻页 */
+.page{
+    margin-top: 10px;
+}
+.page-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: white;
+}
+.page-container a{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #e4e4e4;
+    font-size: .23675;
+}
+.page-container a::after{
+    content: "";
+    display: block;
+    height: 1px;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+}
 
 
 /* 页面头部logo */

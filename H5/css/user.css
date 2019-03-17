@@ -1,0 +1,155 @@
+/* 用户中心侧边栏 */
+.fixed-submenu{
+    position: fixed;
+    top: 60px;
+    left: -3.25rem;
+
+}
+.sidebar{
+    position: relative;
+    margin-top: .2rem;
+    width: 2.4rem;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e8e8e8;
+}
+.show-submenu{
+    background: url('../images/show.png') 1.5rem center no-repeat;
+    background-size: .4rem;
+    font-size: .2989rem;
+}
+.hide-submenu{
+    background: url('../images/hide.png') 1.5rem center no-repeat;
+    background-size: .4rem;
+    font-size: .2989rem;
+}
+
+.sidebar-container{
+    padding-left: 20px;
+}
+.sidebar-container li{
+    padding: .181rem;
+    font-size: .2536rem;
+
+}
+.sidebar-container li a{
+    text-align: left;
+}
+
+.hide-menu{
+    position: absolute;
+    top: 50%;
+    right: -.5rem;
+    padding: 4px;
+    z-index: 99;
+    transform: translateY(-50%);
+    font-size: .4rem;
+    color: #a6a6a6;
+    background: white;
+}
+
+/* 用户信息 */
+.user-info{
+    margin-top: 20px;
+}
+.user-container{
+    padding: 10px;
+    background: white;
+}
+.user-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 2.8rem;
+    max-height: 2.8rem;
+}
+.user-vip{
+    margin-left: 20px;
+    white-space: nowrap;
+}
+.login-container p{
+    font-size: .256rem;
+    color: #666;
+}
+.login-time{
+    padding-top: 10px;
+    text-indent: 2em;
+}
+.user-vip span{
+    margin-right: .1rem;
+    font-size: .256rem;
+}
+
+.user-related{
+    margin-top: .3rem;
+    font-size: .2536rem;
+    text-align: center;
+}
+.user-related a{
+    margin-right: .18rem;
+    padding: 4px 8px;
+    border: 1px solid #d4d4d4;
+}
+.user-onvip{
+    padding: 2px 6px;
+    background: #ff1313;
+    color:white;
+}
+
+/* 订单中心 */
+.user-order{
+    margin-top: 10px;
+    background: white;
+}
+.order-status {
+    padding: 10px;
+    height: .4rem;
+    font-size: .2rem; 
+    border-bottom: 1px solid #f1f1f1; 
+    box-shadow: 0 2px 2px #d6d6d6;
+}
+.order-status a{
+    margin-right: .3rem;
+    font-size: .28rem;
+}
+
+
+.order-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    height: 2rem;
+    font-size: .2456rem;
+}
+.order-list-img{
+    width: 30%;
+    width: 2.4rem;
+    height: 1.2rem;
+}
+.order-name{
+    padding-left: 10px;
+    width: 2.4rem;
+}
+.order-name p{
+    padding: 2px 0;
+}
+
+.order-list-img img{
+    width: 100%;
+    height: 100%;
+}
+.order-pice{
+    margin-left: 10px;
+}
+.order-assess{
+    margin-left: .3rem;
+    padding: 2px 4px;
+    border: 1px solid #d4d4d4;
+    white-space: nowrap
+}
+
+
+
+
+

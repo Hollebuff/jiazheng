@@ -1,81 +1,138 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/" >
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>家政网</title>
-    <meta name="keywords" content="家政网">
-    <meta name="description" content="">
-    <!-- 删除默认的苹果工具栏和菜单栏 -->
-    <meta name =“apple-mobile-web-app-capable”content =“yes”/>  
-    <!-- 苹果手机顶部为黑色 -->
-    <meta name =“apple-mobile-web-status-bar-style”content =“block”/>  
-    <link rel="icon" href="./images/icon.icon" type="images/x-icon">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/serviceid.css">
+/* 师傅基本信息 */
+.masterid-info{
+    background: white;
+}
+.masterid-container{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;   
 
-</head>
-<body>
-    <!-- logo -->
-    <header>
-        <div class="header-logo">
-            <a href="">
-                <span class="logo-icon"></span>
-            </a>
-        </div>
-        <div class="header-search">
-            <a href="">深圳 v</a>
-            <input type="text" value="搜索">
-        </div>
-    </header>
+}
+/* .masterid-img{
+    margin-left: 10px;
+} */
+
+.masterid-content{
+    margin-left: .6rem;
+    height: 2.1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: .2546rem;
+
+}
+.masterid-name{
+    font-size: .2989rem;
+    font-weight: 600;
+    background: url('../images/validate1.png') 1rem center no-repeat,
+                url('../images/validate2.png') 1.4rem center no-repeat;
+    background-size: .36rem;
+
+}
+.masterid-add{
+    padding-left: .4rem;
+    background: url('../images/location.png') no-repeat 0  center;
+    background-size: .3624rem;
+
+}
+.masterid-skill span{
+    margin-right: .2rem;
+    padding: 2px 10px;
+    border: 1px solid #d4d4d4;
+}
+.masterid-show-tel{
+    margin-top: 10px;
+}
+.masterid-show-tel .click-tel{
+    padding: 4px 20px;
+    text-align: center;
+    color: white;
+    background: #cc1010;
+}
+
+
+/* 正在出售的服务 */
+.masterid-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.masterid-sell .masterid-more span{
+    height: .4rem;
+    line-height: .9rem;
+    font-size: .2898rem;
+}
+.sell-container{
+    padding: 10px 10px;
+    display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+    background: white;
+}
+.sell-container::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+.sell-list{
+    margin-right: .4rem;
+
+}
+.sell-list a{
+    position: relative;
+}
+.sell-list a img{
+    max-width: 5rem;
+    max-height: 4rem;
+    width: 4rem;
+    height: 3rem;
+}
+
+.sell-list a span{
+    font-size: .3rem;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+/* 服务保障 */
+.guarantee-container img{
+    width: 1.4rem;
+    height: 1rem;
+    margin-right: 4px;
+}
+
+.guarantee-container{
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
 
 
 
 
 
 
-    <!-- 版权信息 -->
-    <div class="footer">
-        <div class="footer-container">
-            <p>家政网，你的专业私人管家助手</p>
-            <p>家政热线：<span>400-200-300</span>&nbsp;&nbsp;&nbsp;<span>031-516-511</span></p>
-            <p class="footer-contact">
-                <a href="">成为合伙人</a> |
-                <a href="">关于我们</a> |
-                <a href="">意见反馈</a> |   
-                <a href="">在线招聘</a>
-            </p>
-        </div>
-    </div>
 
-    <!-- 悬浮导航 -->
-    <div class="suspend-footer">
-        <ul class="suspend-container">
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="home-icon suspend-icons"></span></div>
-                    <div class="home-title">首页</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="publish-icon suspend-icons"></span></div>
-                    <div class="home-title">发布</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="information-icon suspend-icons"></span></div>
-                    <div class="home-title">消息</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="user-icon suspend-icons"></span></div>
-                    <div class="home-title">我的</div>
-                </a>
-            </li>
-        </ul>
-    </div>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
