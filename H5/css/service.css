@@ -60,19 +60,24 @@
     line-height: .4rem;
 }
 .sort-container{
-    background: #e6e6e6;
+    background: #fff;
+    box-shadow: 0 2px 1px #d9d9d9;
+}
+.sort-container a{
+    background: url('../images/sort.png') no-repeat  1.48rem center;
+    background-size: .6rem;
 }
 .sort-container a{
     display: inline-block;
     width: 30%;
     height: .8rem;
     line-height: .8rem;
-    border: 1px dashed #e6e6e6;
+    /* border: 1px dashed #e6e6e6; */
     font-size: .2989rem;
     text-align: center;
 }
 .service-main{
-    margin-top: .1rem;
+    margin-top: .2rem;
 }
 .main-items a{
     display: flex;

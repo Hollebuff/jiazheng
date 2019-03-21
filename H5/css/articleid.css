@@ -1,0 +1,120 @@
+/* 文章 */
+.article-title{
+    padding: 0 .2rem;
+    margin-top: .189rem;
+    font-size: .3rem;
+    font-weight: 500;
+    background: white;
+
+}
+.article-info{
+    padding: .2rem .2rem;
+    border-bottom: 1px solid #d5d5d5;
+    box-shadow: 0 1px 1px #d9d9d9; 
+    font-size: .2345rem;
+    background: white;
+
+}
+.article-info span{
+    margin-right: .289rem;
+}
+
+/* 文章标签 */
+.tag, .article-copy, .next-article{
+    font-size: .234rem;
+    background: white;
+
+}
+.tag{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .189rem;
+}
+.tag a{
+    margin-right: .189rem;
+    padding: .07rem .189rem;
+}
+/* 版权 */
+.article-copy{
+    padding: .2rem .2rem;
+    color: #292d33;
+}
+/* 上下篇 */
+.next-article{
+    padding: .4rem .2rem;
+}
+
+.next-container p{
+    height: .3rem;
+
+}
+
+.article-content{
+    padding: 10px 4px; 
+    font-size: .2645rem; 
+    font-family: "微软雅黑";
+    color: #292d33;
+    background: white;
+
+}
+
+.article-content img{
+    padding: .2rem;
+    width: 5rem;
+    height: 2.8rem;   
+}
+.article-content p{
+    text-indent: 2em;
+}
+
+.related-item{
+    margin-top: .189rem;
+    background: white;
+
+}
+.related-list{
+    padding: .1rem 0;
+}
+.related-list a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .265rem;
+    padding: .08rem .189rem;
+}
+
+.related-article-title{
+    margin-right: .189rem;
+    width: 4rem;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+.article-date{
+    margin-left: .18rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.related-tag-item{
+    margin-top:.189rem;
+    padding: 0 .2rem;
+    font-size: .2345rem;
+    background: white;
+}
+.tag-list{
+    float: left;
+    padding: .189rem 0;
+    width: 25%;
+    font-size: .2345rem;
+    text-align: center;
+}
+.tag-list a{
+    padding: .08rem .189rem;
+}
+

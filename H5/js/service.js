@@ -1,19 +1,24 @@
-// <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
-// // 横向菜单
-// function serviceMenu(){
-//     var u = navigator.userAgent;
-// 	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-// 	var isUc = u.indexOf('UCBrowser') > -1;    //uc浏览器
-// 	//var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-// 	if(isAndroid&&isUc){		/*注释5*/
-// 	    $('.box').on('touchstart',function(){
-//             $(document).on('touchmove',function(e){
-//                 e.preventDefault();
-//             });
-// 		$(document).on('touchend',function(){
-// 		    $(document).unbind();
-// 		});
-//     });
-//     }   
-// }
-// serviceMenu();
+// tab选项卡菜单
+function clickTab(){
+    var subMenu = document.getElementsByClassName("menu-container")[0].getElementsByTagName('li'),
+        showSubMenu = document.getElementsByClassName("submenu-container");
+        
+    for(var i = 0, len = subMenu.length; i< len; i++) {
+        subMenu[i].index = i;
+        subMenu[i].onclick = function(){
+			showTab(this.index);
+        }
+    }
+
+    function showTab(a) {
+        subMenu[a].classList.add('look-on');
+        showSubMenu[a].style.display = "block";
+        for(var j=0; j<subMenu.length; j++){
+            if(j != a){
+                subMenu[j].classList.remove('look-on');
+                showSubMenu[j].style.display = "none";	
+            }
+        }
+    }
+}
+clickTab();

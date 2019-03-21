@@ -140,7 +140,14 @@ main{
     line-height: 20px;
 }
 .recommend-list a{
+    padding-right: .2rem;
     font-size: .25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
 }
 .recommend-new-article{
     display: none;

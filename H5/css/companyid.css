@@ -1,81 +1,228 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/" >
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>家政网</title>
-    <meta name="keywords" content="家政网">
-    <meta name="description" content="">
-    <!-- 删除默认的苹果工具栏和菜单栏 -->
-    <meta name =“apple-mobile-web-app-capable”content =“yes”/>  
-    <!-- 苹果手机顶部为黑色 -->
-    <meta name =“apple-mobile-web-status-bar-style”content =“block”/>  
-    <link rel="icon" href="./images/icon.icon" type="images/x-icon">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/serviceid.css">
+/* 服务方式详情页 */
+.companyid{
+    background: whitel;
+}
+.companyid-info, .companyid-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .4rem .18rem;
+    color: #444;
+    background: white;
+}
+.companyid-logo{
+    width: 2.4rem;
+    height: 1.2rem;
+}
+.companyid-logo img{
+    width: 100%;
+    height: 100%;
+}
+.companyid-about{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .18rem;
+    font-size: .246rem;
+}
+.companyid-title{
+    font-size: .2898rem;
+    font-weight: 500;
+}
+.companyid-active span{
+    padding-right: .2rem;
+}
 
-</head>
-<body>
-    <!-- logo -->
-    <header>
-        <div class="header-logo">
-            <a href="">
-                <span class="logo-icon"></span>
-            </a>
-        </div>
-        <div class="header-search">
-            <a href="">深圳 v</a>
-            <input type="text" value="搜索">
-        </div>
-    </header>
+.companyid-contact{
+    margin-top: .18rem;
+    padding: .18rem .2rem;
+}
+.contact-nub{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .246rem;
+}
 
+.buy{
+    margin-left: .2rem;
+    font-size: .289rem;
+    padding-top: .2rem;
+}
+.buy a{
+    padding: .18rem .22rem;
+    text-align: center;
+    color: #fff;
+    background: orange;
+}
+/* 优惠券 */
+.companyid-coupon{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .18rem;
+    padding: .2rem;
+    background: #fff;
 
+}
+.companyid-coupon a img{
+    width: 3.4rem;
+    height: 1rem;
+}
 
+/* 公司简介 */
+.profile{
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: .2rem;
+    padding: 0 .2rem;
+    font-size: .289rem;
+    background: #fff;
+    text-indent: 2e;
+}
 
+.companyid-service{
+    margin-top: .12rem;
+    background: #fff;
+}
+.more-warp{
+    padding-right: .2rem;
+    font-size: .246rem;
+    padding-top: .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-items{
+    margin-top: .2rem;
+}
+.service-list{
+    float: left;
+    width: 33%;
+}
+.service-list a{
+    display: inline-block;
+    padding: .3rem .2rem;
+}
+.service-list a img{
+    width: 2rem;
+    height: 1.2rem;
+}
 
+/* 团队 */
+.team-item{
+    background: #fff;
+}
+.team-list a{
+    float: left;
+    margin-top: .2rem;
+    width: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+}
+.team-head{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.team-head img{
+    height: 100px;
+    width: 100px;
+}
 
-    <!-- 版权信息 -->
-    <div class="footer">
-        <div class="footer-container">
-            <p>家政网，你的专业私人管家助手</p>
-            <p>家政热线：<span>400-200-300</span>&nbsp;&nbsp;&nbsp;<span>031-516-511</span></p>
-            <p class="footer-contact">
-                <a href="">成为合伙人</a> |
-                <a href="">关于我们</a> |
-                <a href="">意见反馈</a> |   
-                <a href="">在线招聘</a>
-            </p>
-        </div>
-    </div>
+.master-name{
+    font-size: .289rem;
+}
+.master-skill{
+    font-size: .22rem;
+}
 
-    <!-- 悬浮导航 -->
-    <div class="suspend-footer">
-        <ul class="suspend-container">
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="home-icon suspend-icons"></span></div>
-                    <div class="home-title">首页</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="publish-icon suspend-icons"></span></div>
-                    <div class="home-title">发布</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="information-icon suspend-icons"></span></div>
-                    <div class="home-title">消息</div>
-                </a>
-            </li>
-            <li class="suspend-list">
-                <a href="">
-                    <div><span class="user-icon suspend-icons"></span></div>
-                    <div class="home-title">我的</div>
-                </a>
-            </li>
-        </ul>
-    </div>
-</body>
-</html>
+/* 评价列表 */
+.assess-lv{
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: .2546rem;
+    background: white;
+}
+.assess-lv span{
+    padding-right: .2rem;
+    font-size: .2546rem;
+}
+.assess-lists {
+    display: flex;
+    align-items: center;
+    padding: 10px 6px 10px;
+    /* margin-top: 4px; */
+    height: 1.4rem;
+    font-size: .2536rem;
+    border-bottom: 1px dashed #d4d4d4; 
+    background: white;
+
+}
+.assess-lists > div{
+    float: left;
+}
+
+.assess-content-container{
+    width: 65%;
+    margin-left: .1rem;
+}
+
+.assess-content span{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+
+}
+.assess-user-info{
+    margin-left: .5rem;
+    width: 35%;
+    font-size: .2rem;
+}
+
+.assess-details-img img{
+    width: 1.8rem;
+    height: 1.2rem;
+}
+.assess-star{
+    margin-top: 6px;
+    width: 100px;
+    height: .4rem;
+    background-size: .1rem; 
+    background: url(../images/star.png) repeat-x center;
+}
+.user-info-header img{
+    height: .5rem;
+    width: .5rem;
+    vertical-align: middle;
+
+}
+.user-info-header{
+    white-space: nowrap;
+}
+
+.assess-date{
+    margin-top: 16px;
+}
