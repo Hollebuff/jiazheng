@@ -19,6 +19,15 @@ function addBuy(){
 
     var conuttotleNub = 0;     // 统计总数
 
+    // if(add.length === 1){
+    //     if(chebox[0].checked){
+    //         countBubMinus();
+    //         subPrice(this.index);
+    //         showTotlePrice();
+    //     }
+    // }
+    // else{
+
     for (var i = 0; i < add.length; i++){
         // 减少
         minus[i].index = i;
@@ -85,9 +94,7 @@ function addBuy(){
         delectBtn[i].index = i;
         delectBtn[i].onclick = function(){
             listItem[this.index].remove();
-            countBubAdd();  
-            showTotlePrice();
-            checkSevriceList();
+
             
             // 删除后索引发生变化，需要重新更新
             for(var k = 0; k<listItem.length; k++){
@@ -96,8 +103,15 @@ function addBuy(){
                 add[k].index = k;
                 minus[k].index = k;
             }
+            countBubAdd();  
+            showTotlePrice();
+            checkSevriceList();
+
+
         }
+    // }
     }
+
 
     // 提示用户最少要添加一个服务
     function checkSevriceList(){

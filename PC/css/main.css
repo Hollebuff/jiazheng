@@ -203,10 +203,16 @@ header{
 
 .logo select{
     font-size: 14px;
-    width: 60px;
+    width: 70px;
+    padding-right: 6px;
     line-height: 42px;
     letter-spacing: 5px;
     border: 2px solid #e6454a;  
+ 
+    -moz-appearance: none;
+    appearance: none;
+    border-radius:3px;
+
 }
 
 .searh_text{
@@ -258,7 +264,7 @@ nav{
 .more_img{
     width: 18px;
     height: 8px;
-    background: url('E:///web/images/更多.png') no-repeat left;
+    background: url('../images/更多.png') no-repeat left;
     position: absolute;
     left: 76px;
     top: 50%;
