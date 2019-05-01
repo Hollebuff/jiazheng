@@ -1,5 +1,5 @@
 // 参考网上方法：http://www.php.cn/js-tutorial-408942.html
-// 如果是删除最上门一条数据，最后一条数据无法删除，此bug占时不知道怎么解决
+
 
 function addBuy(){
     var listItem = document.getElementsByClassName('order-list-item');  // 商品某列
@@ -18,15 +18,6 @@ function addBuy(){
     var orderList = document.getElementsByClassName('order-list')[0];  // 服务列表box
 
     var conuttotleNub = 0;     // 统计总数
-
-    // if(add.length === 1){
-    //     if(chebox[0].checked){
-    //         countBubMinus();
-    //         subPrice(this.index);
-    //         showTotlePrice();
-    //     }
-    // }
-    // else{
 
     for (var i = 0; i < add.length; i++){
         // 减少
@@ -190,19 +181,19 @@ function submitInfo(){
         alert('个人信息未填写完')
     }
     else{
-        if(parseInt(tel.value.length) == 11 && !(/^1[34578]\d{9}$/.test(tel))){
+        if(parseInt(tel.value.length) == 11 && !(/^1[3|4|5|7|8]\d{9}$/.test(tel))){
             subName.innerText = '联系人：' + names.value;
             subTel.innerText = '电话：' +  tel.value;
+            subDate.innerText = '预约时间：' + times.value;
+            for(var i=0; i<adds.length; i++){
+                adrss += adds[i].value;
+            }
+            subAdds.innerHTML = '联系地址：' +  adrss;
         }
         else{
             alert('请输入正确的手机号')
         }
-        subDate.innerText = '预约时间：' + times.value;
 
-        for(var i=0; i<adds.length; i++){
-            adrss += adds[i].value;
-        }
-        subAdds.innerHTML = '联系地址：' +  adrss;
     }
 }
 

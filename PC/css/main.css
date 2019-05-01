@@ -197,7 +197,7 @@ header{
 }
 
 .logo select, .subimt{
-    height: 50px;
+    height: 46px;
     cursor: pointer;
 }
 
@@ -1678,6 +1678,12 @@ h1{
 .addlist{
     padding-right: 10px;
 }
+.addlist > span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .addlist span, .addlist input{
     display: inline-block;
 }
@@ -2131,8 +2137,33 @@ strong{
     text-align: left;
     margin-bottom: 30px;
 }
+.order-user-add .info-times{
+    width: 200px;
+}
+
+/*----------用来移除向下箭头----------*/
+input[type="date"]::-webkit-calendar-picker-indicator {
+   display: none;
+}
+ 
+/*----------用来移除上下箭头----------*/
+input[type="date"]::-webkit-inner-spin-button {
+	display: none;
+	}
+ 
+/*----------用来移除叉叉按钮----------*/
+input[type="date"]::-webkit-clear-button{
+   display:none;
+}
+/* 下拉日期显示 */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
 .order-user-add span:first-of-type{
-    background: url(e://web/images/bitian.png) no-repeat right top;
+    background: url(../images/bitian.png) no-repeat right top;
 
 }
 .order-user-add span, .order-user-add input{
