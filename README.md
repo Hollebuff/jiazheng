@@ -1,4 +1,9 @@
-### 哈哈， 真香，说好不修改的
-新增H5响应式页面，后续完善
-
-重新修改pc端文件路径，另外新增H5页面，2019年3月9日11:53:33
+家政网
+======
+<br>
+PC端演示地址：[点击查看](https://hollebuff.github.io/jiazheng/PC/)
+<br>
+M端演示地址：[点击查看](https://hollebuff.github.io/jiazheng/H5/)
+<br>
+<br>
+**查看M端效果请开启手机浏览模式，或者手机浏览器打开查看**
